@@ -5,7 +5,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class PracticTestngAssertion {
+public class PracticTestngAssertionTest {
 
 	SoftAssert asrt=new SoftAssert();
 	
