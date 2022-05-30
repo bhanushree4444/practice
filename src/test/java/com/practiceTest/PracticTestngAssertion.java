@@ -18,6 +18,7 @@ public class PracticTestngAssertion {
 		Reporter.log("c------>",true);
 		Reporter.log("d------>",true);
 		asrt.assertAll();
+		reporter.log("hi----->", true);
 	}
 	
 	@Test 
@@ -29,6 +30,7 @@ public class PracticTestngAssertion {
 		Reporter.log("c------>",true);
 		asrt.assertEquals("abc", "abc");
 		Reporter.log("d------>",true);
+		reporter.log("hi----->", true);
 	}
 	
 	@Test 
@@ -41,5 +43,6 @@ public class PracticTestngAssertion {
 		Reporter.log("c------>",true);
 		Reporter.log("d------>",true);
 		asrt.assertAll();
+		reporter.log("hi----->", true);
 	}
 }
