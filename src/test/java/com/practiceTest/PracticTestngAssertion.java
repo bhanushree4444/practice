@@ -11,7 +11,7 @@ public class PracticTestngAssertion {
 	
 	@Test 
 	public  void Test1Test() {
-		String browser=system.getProperty("browser");
+		String browser=System.getProperty("browser");
 		String url=System.getProperty("url");
 		Reporter.log(browser,true);
 		Reporter.log(url,true);
@@ -28,6 +28,8 @@ public class PracticTestngAssertion {
 	
 	@Test 
 	public  void Test2Test() {
+		String browser=System.getProperty("browser");
+		String url=System.getProperty("url");
 		Reporter.log(browser,true);
 		Reporter.log(url,true);
 		Reporter.log("a------>",true);
@@ -44,6 +46,8 @@ public class PracticTestngAssertion {
 	
 	@Test 
 	public  void Test3Test() {
+		String browser=System.getProperty("browser");
+		String url=System.getProperty("url");
 		Reporter.log(browser,true);
 		Reporter.log(url,true);
 		Reporter.log("a------>",true);
