@@ -19,8 +19,8 @@ public class PracticTestngAssertion {
 		Reporter.log("d------>",true);
 		asrt.assertAll();
 		reporter.log("hi----->", true);
-		reporter.log(Browser.true);
-		reporter.log(Username.true);
+		reporter.log(browser,true);
+		reporter.log(username,true);
 	}
 	
 	@Test 
@@ -33,8 +33,8 @@ public class PracticTestngAssertion {
 		asrt.assertEquals("abc", "abc");
 		Reporter.log("d------>",true);
 		reporter.log("hi----->", true);
-		reporter.log(Browser.true);
-		reporter.log(Username.true);
+		reporter.log(browser,true);
+		reporter.log(username,true);
 	}
 	
 	@Test 
@@ -48,7 +48,7 @@ public class PracticTestngAssertion {
 		Reporter.log("d------>",true);
 		asrt.assertAll();
 		reporter.log("hi----->", true);
-		reporter.log(Browser.true);
-		reporter.log(Username.true);
+		reporter.log(browser,true);
+		reporter.log(username,true);
 	}
 }
