@@ -11,6 +11,8 @@ public class PracticTestngAssertion {
 	
 	@Test 
 	public  void Test1Test() {
+		String browser=system.getProperty("browser");
+		String url=System.getProperty("url");
 		Reporter.log(browser,true);
 		Reporter.log(url,true);
 		Reporter.log("a------>",true);
