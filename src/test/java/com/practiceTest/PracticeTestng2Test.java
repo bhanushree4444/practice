@@ -16,11 +16,15 @@ public class PracticeTestng2Test extends PracticeTestNgTest {
 	
 	@BeforeSuite
 	public  void beforeSuite5Test() {
+		String browser=System.getProperty("browser");
+		String url=System.getProperty("url");
 		Reporter.log("beforeSuite5",true);
 	}
 	
 	@BeforeTest
 	public  void beforeTest5Test() {
+		String browser=System.getProperty("browser");
+		String url=System.getProperty("url");
 		Reporter.log("BeforeTest5",true);
 	}
 	
