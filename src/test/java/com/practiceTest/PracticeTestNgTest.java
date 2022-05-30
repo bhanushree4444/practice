@@ -72,6 +72,8 @@ public class PracticeTestNgTest {
 		Reporter.log("hi",true);
 		String browser=System.getProperty("browser");
 		String url=System.getProperty("url");
+		Reporter.log(browser,true);
+		Reporter.log(url,true);
 	}
 
 	@Test(groups = "sanity")
