@@ -70,6 +70,8 @@ public class PracticeTestNgTest {
 	@Test(groups = "regression")
 	public  void test1Test() {
 		Reporter.log("hi",true);
+		String browser=System.getProperty("browser");
+		String url=System.getProperty("url");
 	}
 
 	@Test(groups = "sanity")
