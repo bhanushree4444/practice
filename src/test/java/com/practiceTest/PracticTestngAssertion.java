@@ -20,7 +20,7 @@ public class PracticTestngAssertion {
 		asrt.assertAll();
 		reporter.log("hi----->", true);
 		reporter.log(browser,true);
-		reporter.log(Url,true);
+		reporter.log(url,true);
 	}
 	
 	@Test 
@@ -34,7 +34,7 @@ public class PracticTestngAssertion {
 		Reporter.log("d------>",true);
 		reporter.log("hi----->", true);
 		reporter.log(browser,true);
-		reporter.log(Url,true);
+		reporter.log(url,true);
 	}
 	
 	@Test 
@@ -49,6 +49,6 @@ public class PracticTestngAssertion {
 		asrt.assertAll();
 		reporter.log("hi----->", true);
 		reporter.log(browser,true);
-		reporter.log(Url,true);
+		reporter.log(url,true);
 	}
 }
